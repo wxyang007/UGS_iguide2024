@@ -18,11 +18,14 @@ Below is a list of data we used and created throughout the analysis.
 
 - [NAIP images](https://naip-usdaonline.hub.arcgis.com/) downloaded from Google Earth Engine using the script [getNAIP.js](https://github.com/wxyang007/UGS_iguide2024/tree/main/script/getNAIP.js).
 
-- [US cities boundaries](https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.2020.html#list-tab-1883739534).
+- [US urban areas boundaries](https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.2020.html#list-tab-1883739534).
 
 - Park features downloaded from [Open Street Map](https://www.openstreetmap.org/#map=17/43.590710/3.922770). Script at [downloadOSM.R](https://github.com/wxyang007/UGS_iguide2024/tree/main/script/downloadOSM.R). Note that at this preliminary stage we're using parks as proxies of urban green spaces, and will add other features in later steps.
 
 ### Intermediate dataset:
+
+- [Parks in Houston](https://drive.google.com/file/d/1m8Y9kb1TzsZfu30RCvkxngxhCDE9DA7Q/view?usp=drive_link).
+
 - [Image chips](https://drive.google.com/file/d/1o4wPPQPcqJkxTHTmy_ngyu-nRxjUHxeu/view?usp=sharing) for model training. To use this for following steps. First download and unzip. And then run [PreImgSegmtAnnot.ipynb](https://github.com/wxyang007/UGS_iguide2024/tree/main/script/1PrepImgSegmtAnnot.ipynb) before going to [model building notebook](https://github.com/wxyang007/UGS_iguide2024/tree/main/script/2TorchGeo.ipynb)
 
 ### Outputs:
