@@ -17,7 +17,7 @@ Below is a list of data we used and created throughout the analysis.
 - Park features downloaded from [Open Street Map](https://www.openstreetmap.org/#map=17/43.590710/3.922770). Script at [downloadOSM.R](https://github.com/wxyang007/UGS_iguide2024/tree/main/script/downloadOSM.R). Note that at this preliminary stage we're using parks as proxies of urban green spaces, and will add other features in later steps.
 
 ### Intermediate dataset:
-- Image chips for model training.
+- [Image chips](https://drive.google.com/file/d/1o4wPPQPcqJkxTHTmy_ngyu-nRxjUHxeu/view?usp=sharing) for model training. To use this for following steps. First download and unzip. And then run [PreImgSegmtAnnot.ipynb](https://github.com/wxyang007/UGS_iguide2024/tree/main/script/1PrepImgSegmtAnnot.ipynb) before going to [model building notebook](https://github.com/wxyang007/UGS_iguide2024/tree/main/script/2TorchGeo.ipynb)
 
 ### Outputs:
 - An image segmentation model for extracting urban green spaces.
@@ -42,16 +42,10 @@ Required packages to run the notebook for [image segmentation](https://github.co
 
 <br>
 
-# Map creation
-<br>
-
-# Map validation and error analysis
-
-<br>
 
 # Appendix
 ### Packages we considered for image segmentation for remote sensing
 1. scikit-eo
-2. torchgeo
+2. <b>torchgeo</b>
 3. terratorch
 4. keras
