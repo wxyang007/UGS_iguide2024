@@ -3,7 +3,10 @@ A repository for team 2 I-GUIDE summer school 2024
 This project aims to leverage machine learning algorithms
 
 <br>
+
 # Dataset
+
+Below is a list of data we used and created throughout the analysis.
 
 ### Inputs:
 
@@ -18,15 +21,25 @@ This project aims to leverage machine learning algorithms
 
 ### Outputs:
 - An image segmentation model for extracting urban green spaces.
--
+- Extracted green spaces.
 
 
 <br>
 
-# Usage notes
-<br>
 
 # Code dependencies
+
+Required packages to run the notebook for [image segmentation](https://github.com/wxyang007/UGS_iguide2024/blob/main/script/2TorchGeo.ipynb):
+
+- torch, [torchgeo](https://github.com/microsoft/torchgeo/tree/main), torchvision, sklearn
+
+- rasterio
+
+- xarray
+
+- splitfolders
+
+
 <br>
 
 # Map creation
