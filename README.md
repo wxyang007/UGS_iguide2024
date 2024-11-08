@@ -1,7 +1,7 @@
 # Urban Green Space Extraction
 A repository for team 2 I-GUIDE summer school 2024
 
-This project aims to leverage machine learning algorithms to advance our understanding on the relationship between urban green spaces and heat stress in Southeastern US cities. This repository hosts scripts to extract urban green space via image segmentation as a first step of the project.
+This project aims to leverage machine learning algorithms to advance our understanding on the relationship between urban green spaces and heat stress in Southeastern US cities. This repository hosts scripts to extract urban green space via image classification as a first step of the project.
 
 <b>Team leader</b>: Dr. Elie Alhajjar
 
